@@ -7,10 +7,7 @@ product = number1 * number2
 
 
 print(" Addition of ",number1,'and ',number2,'is ',addition)
-print(" difference of ",number1,'and ',number2,'is ',difference)
-print(" the product of ",number1,'and ',number2,'is ',product)
+print(" Subtraction of ",number1,'and ',number2,'is ',difference)
+print(" Multiplication of ",number1,'and ',number2,'is ',product)
 
 
-# Addition of 10 and 5 is 15
-# Subtraction of 10 and 5 is 5
-# Multiplication of 10 and 5 is 50
