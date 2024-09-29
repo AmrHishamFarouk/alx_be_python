@@ -8,11 +8,11 @@ except ValueError:
     print("Invalid temperature. Please enter a numeric value.")
 
 def convert_to_celsius(fahrenheit):
-    new_temp = fahrenheit* FAHRENHEIT_TO_CELSIUS_FACTOR
+    new_temp = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return new_temp
 
 def convert_to_fahrenheit(celsius):
-    new_temp = celsius* CELSIUS_TO_FAHRENHEIT_FACTOR
+    new_temp = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return new_temp
 
 
