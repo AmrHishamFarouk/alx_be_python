@@ -13,7 +13,7 @@ def main():
 
         if choice == '1':
 
-            new_item = input("enter new item to list:")
+            new_item = input("Enter the item to add:")
             shopping_list.append(new_item)
             pass
 
@@ -31,7 +31,7 @@ def main():
             for item in shopping_list:
                 print(item)
             pass
-            
+
         elif choice == '4':
             print("Goodbye!")
             break
